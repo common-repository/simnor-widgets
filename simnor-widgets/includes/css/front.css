@@ -1,0 +1,122 @@
+/* General */
+
+ul.sn-simnor-widgets-ul {
+	display: block;
+	list-style: none!important;
+	margin: 0px!important;
+	overflow: hidden;
+}
+
+
+/* Authors Widget */
+
+	ul.sn-simnor-widgets-authors li {
+		display: block;
+		overflow: hidden;
+		clear: both;
+		margin: 0 0 10px 0!important;
+	}
+		ul.sn-simnor-widgets-authors li a.author-avatar {
+			float: left;
+			display: block;
+			margin: 0 15px 0 0;
+		}
+			ul.sn-simnor-widgets-authors li a.author-avatar img { display: block; margin: 0px; }
+		ul.sn-simnor-widgets-authors li .author-name {
+			font-size: 13px;
+			font-weight: bold;
+			margin: 0;
+			display: block;
+			line-height: normal;
+			padding: 10px 0 0 0;
+		}
+		ul.sn-simnor-widgets-authors li .author-count {
+			font-size: 11px;
+			display: block;
+		}
+	
+		
+/* Social Links Widget */
+
+	ul.sn-simnor-widgets-social-links li {
+		float: left;
+		display: block;
+		margin: 0 10px 0 0!important;
+	}
+	
+		
+/* Twitter Feed Widget */
+
+	ul.sn-simnor-widgets-tweets li {
+		display: block;
+		padding: 0 0 15px 0!important;
+		margin: 0 0 15px 0!important;
+		border-bottom: 1px solid #EEE!important;
+	}
+		ul.sn-simnor-widgets-tweets li span.tweet-text {
+			font-size: 12px;
+			line-height: 18px;
+			margin: 0 0 2px 0;
+			display: block;
+		}
+		ul.sn-simnor-widgets-tweets li span.tweet-date {
+			display: block;
+			font-size: 11px;
+			line-height: normal;
+			color: #999;
+		}
+	
+		
+/* Dribbble Widget */
+
+	ul.sn-simnor-widgets-dribbble li {
+		display: block;
+		margin: 0 0 20px 0!important;
+	}
+		ul.sn-simnor-widgets-dribbble li a img {
+			display: block;
+			margin: 0 0 10px 0;
+			max-width: 100%;
+			background: #FFF;
+		}
+		ul.sn-simnor-widgets-dribbble li a .dribbble-title {
+			display: block;
+			font-size: 13px;
+			line-height: normal;
+			font-weight: bold;
+		}
+	
+		
+/* Latest Posts Widget */
+
+	ul.sn-simnor-widgets-latest-posts li {
+		display: block;
+		padding: 0 0 15px 0!important;
+		margin: 0 0 15px 0!important;
+		overflow: hidden;
+		border-bottom: 1px solid #EEE;
+	}
+		ul.sn-simnor-widgets-latest-posts li img {
+			display: block;
+			float: left;
+			margin: 0 15px 0 0;
+			width: 60px;
+			height: 60px;
+		}
+		ul.sn-simnor-widgets-latest-posts li .latest-post-date {
+			font-size: 11px;
+			display: block;
+			line-height: 11px;
+			color: #999;
+			padding: 4px 0 0 0;
+			margin: 0 0 4px 0;
+		}
+		ul.sn-simnor-widgets-latest-posts li .latest-post-title {
+			font-size: 13px;
+			font-weight: bold;
+			display: block;
+			line-height: 18px;
+		}
+		ul.sn-simnor-widgets-latest-posts li.has-thumbnail .latest-post-title {
+			margin-left: 75px;
+		}
